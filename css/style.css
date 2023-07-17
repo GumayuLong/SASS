@@ -7,4 +7,30 @@ header .navbar-brand {
   font-size: 1.8rem;
   font-weight: 700;
   color: #2a73dd !important;
+}
+header .nav-link {
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: #1d365e !important;
+  padding: 0 25px !important;
+}
+header .nav-link::after {
+  content: "";
+  display: block;
+  height: 2px;
+  background-color: #2a73dd;
+  transform: scaleX(0);
+  transition: all 0.2s;
+}
+header .nav-link:hover {
+  color: #2a73dd !important;
+}
+header .nav-link:hover::after {
+  transform: scaleX(1);
+}
+header .active .nav-link {
+  color: #2a73dd !important;
+}
+header .active .nav-link::after {
+  transform: scaleX(1);
 }/*# sourceMappingURL=style.css.map */
