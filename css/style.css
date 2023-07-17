@@ -1,0 +1,10 @@
+header {
+  background-color: #f5f9fe;
+  padding: 13px 0;
+  box-shadow: 0 4px #e2ebfc;
+}
+header .navbar-brand {
+  font-size: 1.8rem;
+  font-weight: 700;
+  color: #2a73dd !important;
+}/*# sourceMappingURL=style.css.map */
